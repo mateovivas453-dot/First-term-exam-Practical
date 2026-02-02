@@ -7,6 +7,22 @@ Este proyecto implementa una **API REST con FastAPI** que permite realizar opera
 La prueba de fuerza bruta se realiza **exclusivamente sobre esta API en entorno local/laboratorio**, usando usuarios creados para la práctica. **Nunca debe ejecutarse contra sistemas reales o sin autorización.**
 
 ---
+## Pasos par la ejecucion de la Api 
+
+1.usando el comando: git clone clonamos mi repositorio de github. 
+2.creamos una interfaz virtual para tener un entorno seguro en el cual ejecutar nustras pruebas:
+- python -m venv venv
+- .\venv\Scripts\activate
+3.ya en nuestra interfaz virtual(venv) ejecutamos el comando fastapi dev
+4.Ejecutada la Fastapi debemos encotrar en nuestra terminal la siguientes lineas:
+  <img width="747" height="178" alt="image" src="https://github.com/user-attachments/assets/674a4dbb-2da2-47b9-9ef2-22a20f56207b" />
+  Entraremos al la documentacion atravez de la URL con terminacion en DOCS
+5.Deberiamos encontrar nuestra fastapi asi :
+
+  <img width="1866" height="822" alt="image" src="https://github.com/user-attachments/assets/f1f30702-8899-44fa-8d62-286d4a831c82" />
+
+
+  
 
 ##  Objetivos
 - Implementar endpoints CRUD seguros para usuarios.
