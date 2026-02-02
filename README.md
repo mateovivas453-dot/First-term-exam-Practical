@@ -7,22 +7,86 @@ Este proyecto implementa una **API REST con FastAPI** que permite realizar opera
 La prueba de fuerza bruta se realiza **exclusivamente sobre esta API en entorno local/laboratorio**, usando usuarios creados para la práctica. **Nunca debe ejecutarse contra sistemas reales o sin autorización.**
 
 ---
-## Pasos par la ejecucion de la Api 
 
-1.usando el comando: git clone clonamos mi repositorio de github. 
-2.creamos una interfaz virtual para tener un entorno seguro en el cual ejecutar nustras pruebas:
-- python -m venv venv
-- .\venv\Scripts\activate
-3.ya en nuestra interfaz virtual(venv) ejecutamos el comando fastapi dev
-4.Ejecutada la Fastapi debemos encotrar en nuestra terminal la siguientes lineas:
-  <img width="747" height="178" alt="image" src="https://github.com/user-attachments/assets/674a4dbb-2da2-47b9-9ef2-22a20f56207b" />
-  Entraremos al la documentacion atravez de la URL con terminacion en DOCS
-5.Deberiamos encontrar nuestra fastapi asi :
+##  Ejecución del Proyecto (Paso a Paso)
 
-  <img width="1866" height="822" alt="image" src="https://github.com/user-attachments/assets/f1f30702-8899-44fa-8d62-286d4a831c82" />
+### 1️. Clonar el repositorio
+Primero clonamos el repositorio desde GitHub utilizando el comando:
+
+```bash
+git clone https://github.com/mateovivas453-dot/First-term-exam-Practical.git
+```
+
+### 2. Crear un entorno virtual (venv)
+
+Creamos una interfaz virtual para trabajar en un entorno aislado y seguro:
+
+```bash
+
+python -m venv venv
+
+```
+
+### - Activamos el entorno virtual:
+
+```bash
+
+.\venv\Scripts\activate
 
 
-  
+```
+### Si todo salió bien, en la terminal debería aparecer algo como:
+
+<img width="484" height="56" alt="image" src="https://github.com/user-attachments/assets/ba7af876-bd61-410c-9fb8-4f6837e5aa93" />
+
+### 3. Ejecutar la API con FastAPI
+
+Instalamos los requirements.txt
+
+bash
+
+```
+
+pip install -r .\requirements.txt
+
+
+```
+
+
+
+### 4. Ejecutar la API con FastAPI
+
+Una vez dentro del entorno virtual, ejecutamos la aplicación (Fast api)
+```bash
+
+
+fastapi dev
+
+
+```
+### 5. Veridicacion 
+
+Si la ejecucion fue correcta tenemos que ver la sigueintes lineas en nuestra terminal:
+<img width="595" height="562" alt="image" src="https://github.com/user-attachments/assets/a44ea66f-15e3-415b-9e76-ef5d90860216" />
+
+### 5. Acceder a la documentación interactiva
+
+Abrimos el navegador y accedemos a la documentación automática de FastAPI mediante la URL:
+
+```bash
+
+
+
+http://127.0.0.1:8000/docs
+
+
+```
+
+### 6. Interfaz de FastAPI
+
+<img width="1863" height="827" alt="image" src="https://github.com/user-attachments/assets/ca3b4e1c-0fad-483f-92bf-8c633353b7cc" />
+
+
 
 ##  Objetivos
 - Implementar endpoints CRUD seguros para usuarios.
