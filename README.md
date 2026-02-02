@@ -16,6 +16,11 @@ Primero clonamos el repositorio desde GitHub utilizando el comando:
 ```bash
 git clone https://github.com/mateovivas453-dot/First-term-exam-Practical.git
 ```
+Entramos a la carpeta:
+```bash
+cd .\First-term-exam-Practical\
+
+```
 
 ### 2. Crear un entorno virtual (venv)
 
